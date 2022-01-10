@@ -9,7 +9,6 @@ dayjs.locale('fr');
 dayjs().format();
 
 export default function Home({ res }) {
-  console.log('home : ', res);
   return (
     <Layout page={'Crytpo Watch - Accueil'} res={res}>
       <ul className='flex justify-around py-10'>
