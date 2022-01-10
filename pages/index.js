@@ -1,3 +1,5 @@
+import Layout from '../components/Layout';
+
 export default function Home() {
-  return <div>Hello Next</div>;
+  return <Layout page={'Crytpo Watch - Accueil'}></Layout>;
 }
